@@ -1,0 +1,13 @@
+.table-edit tr td input{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid grey;
+  margin-bottom: 5px;
+}
+
+.table-edit{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,28 @@
+.showed{
+  height: 0px;
+  transition: .5s .5s;
+  overflow: hidden;
+  background: #eee;
+}
+
+.showedon{
+  height: 900px;
+}
+
+.getstream{
+  height: 0px;
+  transition: .5s;
+}
+
+.downn{
+  height: 90px;
+}
+
+
+.results-table{
+  width: 70%;
+}
+
+.results-table tbody tr td{ 
+  /* border: 1px solid black; */
+}

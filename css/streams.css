@@ -1,0 +1,33 @@
+.card{
+  max-height: 340px;
+}
+
+.card-content{
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.card button{
+  padding: 0px 10px;
+}
+
+
+
+.card-content::-webkit-scrollbar{
+  width: 7px;
+ 	cursor: pointer;
+}
+
+.card-content::-webkit-scrollbar-thumb{
+  background-color: rgba(0,0,0,.2);
+ 	border-radius: 7px;
+}
+
+.addstream{
+  width: 70%;  
+}
+
+.streamlist li{
+	text-transform: uppercase!important;
+}

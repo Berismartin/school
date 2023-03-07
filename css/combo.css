@@ -1,0 +1,41 @@
+.tblss{
+  transition: height .5s;
+  height: 0px;
+}
+
+.tbls-down{
+  height: 120px;
+  border-left: 1px solid #acaba2;
+  border-right: 1px solid #acaba2;
+  border-bottom: 1px solid #acaba2;
+}
+
+.coll{
+  display: none;
+}
+
+.form-dro{
+  transition: height .6s .5s;
+  height: 0px;
+  overflow: hidden;
+}
+
+.form-droped{
+  height: 320px;
+  border-left: 1px solid #acaba2;
+  border-right: 1px solid #acaba2;
+  border-bottom: 1px solid #acaba2;
+}
+
+.add{
+  margin-top: 5px;
+  background: #29b1b1;
+  border: none;
+  padding: 2px 9px;
+}
+
+
+.arrow-key{
+  display: none; 
+  cursor: pointer;
+}

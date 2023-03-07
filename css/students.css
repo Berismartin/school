@@ -1,0 +1,141 @@
+
+.stdash{
+  height: 200px;
+  overflow: hidden;
+  transition: .5s;
+}
+
+ .stdashup {
+  height: 0px;
+}
+.stview, .stmtadd, .staddsec{
+  height: 0px;
+  overflow-X: hidden;
+  overflow-Y: scroll;
+  transition: .5s .5s;
+}
+
+.stviewdown{
+  height: 500px;
+}
+
+.stmtaddtgl{
+ height: 400px;
+}
+
+.staddtgl{
+  height: 550px;
+}
+
+
+/* add student form */
+.student-form{
+  display: flex;
+}
+
+.regester{
+  width: 600px;
+  border: 1px solid grey;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.regester div:first-child{
+  width: 150px;
+  padding-left: 10px;
+}
+
+.regester input, .regester select{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.regester select, .multiple-form select{
+  height: 40px;
+}
+
+.regester .rad{
+  width: 15px;
+}
+
+.regester span p{
+  display: inline-block;
+}
+
+.optionals{
+  width: 300px;
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.optionals select{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.olevel, .alevel{
+  display: none;
+}
+
+
+/* multiple form */
+
+.multiple-form {
+  background: #ababab;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: auto;
+}
+
+.formstd div{
+  background: #ababab;
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+
+}
+
+.multiples{
+  width: 400px;
+}
+
+.multiple-form  select{
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+.studentsec{
+  height: 400px;
+  transition: .5s;
+  overflow: hidden;
+}
+
+.studentsecoff{
+  height: 0px;
+}
+
+.mulpleform{
+  height: 0px;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  transition: .5s .5s;
+}
+
+.mulpleform-on{
+  height: 600px;
+}
+
+.formstd table{
+  margin: auto;
+}
+
+.formstd table input, .formstd table select{
+
+  margin: 5px;
+  padding: 3px;
+}

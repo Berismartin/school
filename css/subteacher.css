@@ -1,0 +1,57 @@
+.layer1{
+  height: 0px;
+  background: #fff;
+  transition: .9s;
+  overflow-X: hidden;
+  overflow-Y: scroll;
+}
+
+.layer1-on{
+  height: 500px;
+}
+
+.lay{
+  overflow: hidden;
+
+}
+
+.lay-off{
+  height: 0px;
+}
+
+.subj-t{
+  width: 350px; 
+}
+
+.subj-t select{
+  width: 90%;
+
+}
+
+
+
+.subj-t option{
+  text-align: left;
+}
+
+.subj-t button{
+  border: none;
+  height: 40px;
+  transition: .3s;
+}
+
+.last{
+  display: none;
+}
+.hd{
+  display: flex;
+  justify-content: space-around;
+}
+
+.hd p{
+  flex-grow: 2;
+}
+.hd i{
+  padding-right: 10px;
+  display: none;
+}

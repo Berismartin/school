@@ -1,0 +1,240 @@
+/* contains all common css properties */
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+button{
+  border: 1px solid black;
+}
+
+p{
+  font-size: 15px;
+}
+i{
+  color: #fea82f;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+body{
+  background: #eee;
+}
+
+table{
+  font-size: 14px;
+}
+
+
+.alert i{
+  font-size: 20px;
+}
+
+.default{
+  background: #eee!important;
+}
+
+.nav{
+  position: fixed;
+  right: 0;
+  left: 200px;
+  width: calc(100% - 200px);
+  background: #29b1b1;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  transition: .3s;
+  z-index: 1;
+  box-shadow: 0px 6px 30px rgba(0,0,0, .3);
+}
+
+.log-section{
+  display: flex;
+}
+
+.log-section p{
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.log-section div{
+  padding: 10px;
+}
+
+.log-section div i{
+  font-size: 23px;
+  cursor: pointer;
+  position: relative;
+  top: 3px;
+}
+
+.log-section div i:hover{
+  color: #f3d35f;
+}
+
+.log-section div:first-child i{
+  transition: .6s;
+}
+
+.log-section div:first-child i:hover{
+  transform: rotateZ(360deg);
+}
+
+.beris-logo{
+  margin: 10px 20px;
+}
+
+.beris-logo p{
+  display: inline-block;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.beris-logo i{
+  cursor: pointer;
+  font-size: 20px;
+  transition: color .25s;
+}
+
+.beris-logo i:hover{
+  color: #f3d35f;
+}
+
+
+.detail-user{
+  height: 50px;
+}
+
+
+
+.side-bar{
+  width: 200px;
+  background: #1f271a;
+  transition: .5s;
+  position: fixed;
+}
+
+.side-bar i{
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+
+.side-nav li{
+  list-style: none;
+  color: #fff;
+
+}
+
+.side-nav li a{
+  display: block;
+  padding: 9px 40px;
+  cursor: pointer;
+  border-bottom: 2px solid #5b5b5b;
+}
+
+
+.triggered{
+  height: 0px;
+  background: #5b5b5b;
+  overflow: hidden;
+  transition: .2s;
+}
+
+.triggered li a{
+  font-size: 14px;
+  border-bottom: 2px solid #1f271a;
+  padding: 9px 55px;
+}
+
+.triggeredon{
+  height: 164px;
+}
+
+.side-nav li a:hover{
+  background: #29b1b1;
+  transition: .15s;
+}
+
+.side-nav li:hover i{
+  color: #fea82f;
+}
+
+.content{
+  position: absolute;
+  height: 300px;
+  width: calc(100% - 200px);
+  margin-left: 200px;
+  top: 50px;
+  transition: .3s;
+}
+
+.check{
+  display: none;
+}
+
+
+#check:checked ~ .nav{
+  width: calc(100% - 60px);
+  left: 60px;
+}
+
+#check:checked ~ .content{
+  width: calc(100% - 60px);
+}
+
+#check:checked ~ .side-bar{
+  width: 60px;
+}
+
+#check:checked ~ .content{
+  margin-left: 60px;
+}
+
+#check:checked ~ .side-bar li a{
+  padding: 10px;
+}
+
+#check:checked ~ .side-bar li span{
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {
+   .nav{
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+
+  .side-bar{
+    width: 60px;
+  }
+
+   .side-bar li a{
+    padding: 20px;
+  }
+
+   .side-bar li span{
+    display: none;
+  }
+
+  .content{
+    margin-left: 60px;
+    width: calc(100% - 60px);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .log-section div p{
+    display: none;
+  }
+}

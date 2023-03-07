@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.all{
+  display: flex;
+}
+
+.color{
+  height: 290px;
+  width: 140px;
+}
+
+.one{
+  background: #5b5b5b;
+}
+
+
+.two{
+  background: #9cfffb;
+}
+
+.three{
+  background: #f39c6b;
+}
+
+
+.four{
+  background: #439dd2;
+}
+
+.five{
+  background: #fea82f; 
+}
+
+.six{
+  background: #1f271a;
+}
+
+.seven{
+  background: #19657f;
+}
+
+.eight{
+  background: #29b1b1;
+}
+
+.nine{
+  background: #f3d35f;
+}
+
+.ten{
+  background: #ef964c;
+}

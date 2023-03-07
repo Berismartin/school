@@ -1,0 +1,49 @@
+.status{
+  color: #03d238;
+}
+
+table td i{
+  cursor: pointer;
+}
+
+.merge tbody tr td, .merge thead th {
+  text-align: center;
+}
+
+.stream button{
+  width: 100%;
+  height: 30px;
+  background: #29b1b1;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 1px 4px rgba(0,0,0, .3);
+}
+
+
+.subj-tr{
+  width: 400px;
+  background: red;
+}
+
+
+
+.combs-table{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.combs-table tr select{
+  margin-top: 5px;
+}
+
+
+.collect_al {
+  padding: 15px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0px 6px 30px rgba(0,0,0, .3);
+}
